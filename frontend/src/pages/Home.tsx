@@ -1,9 +1,12 @@
 import { Search } from "lucide-react";
 import { twMerge } from "tailwind-merge";
 import { useState } from "react";
+import { useNavigate } from "react-router";
 
-function App() {
+export default function HomePage() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [message, setMessage] = useState("");
+  const navigate = useNavigate();
 
   return (
     <div className="flex h-screen justify-center items-center">
@@ -18,6 +21,8 @@ function App() {
           <textarea
             className="border rounded-sm p-3 outline-0 w-full h-full focus:border-2"
             placeholder="Ask me anything!"
+            onChange={(e) => setMessage(e.target.value)}
+            value={message}
           ></textarea>
         )}
         <button
@@ -26,12 +31,19 @@ function App() {
             isSearchOpen &&
               "absolute -bottom-22 shadow-lg rounded-full w-20 h-20 bg-pink-700 flex justify-center items-center"
           )}
-          onClick={() => setIsSearchOpen(false)}
+          onClick={() =>
+            navigate("/restaurant", {
+              state: { message },
+            })
+          }
         >
           <Search className="font-bold" size={40} />
         </button>
         <button
-          className={twMerge("font-bold text-5xl w-full h-full italic font-serif", isSearchOpen && "hidden")}
+          className={twMerge(
+            "font-bold text-5xl w-full h-full italic font-serif",
+            isSearchOpen && "hidden"
+          )}
           onClick={() => setIsSearchOpen(true)}
         >
           Yum
@@ -40,5 +52,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
