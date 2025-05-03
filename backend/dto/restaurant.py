@@ -1,4 +1,4 @@
 from pydantic import BaseModel
 
-class FindByLlmRequest(BaseModel):
+class FindRestaurantRequest(BaseModel):
     message: str
