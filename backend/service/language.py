@@ -1,7 +1,7 @@
 from os import environ
 from datetime import datetime
 from litellm import completion, APIError
-from model import SearchCommand, SearchParameter
+from model import SearchCommand, SearchAction, SearchParameter
 from .error import LanguageServiceError, ServiceError
 import json
 import re
@@ -78,6 +78,22 @@ async def message_to_command(message: str) -> SearchCommand:
 
         if "action" not in json_content or "parameters" not in json_content:
             raise ServiceError("Missing action or parameters in JSON content.")
+        
+        action = SearchAction.UNKNOWN
+        if json_content.get("action") == "restaurant_search":
+            action = SearchAction.RESTAURANT_SEARCH
+        elif json_content.get("action") == "restaurant_recommendation":
+            action = SearchAction.RESTAURANT_RECOMMENDATION
+
+        return SearchCommand(
+            action=action,
+            parameters=SearchParameter(
+                query=json_content.get("parameters", {}).get("query"),
+                near=json_content.get("parameters", {}).get("near"),
+                price=json_content.get("parameters", {}).get("price"),
+                open_now=json_content.get("parameters", {}).get("open_now"),
+            ),
+        )
 
     except json.JSONDecodeError:
         raise LanguageServiceError("Invalid JSON format.")
@@ -86,13 +102,3 @@ async def message_to_command(message: str) -> SearchCommand:
     except Exception as e:
         print("LanguageServiceError:", e)
         raise LanguageServiceError("Unknown error occurred.")
-
-    return SearchCommand(
-        action=json_content.get("action"),
-        parameters=SearchParameter(
-            query=json_content.get("parameters", {}).get("query"),
-            near=json_content.get("parameters", {}).get("near"),
-            price=json_content.get("parameters", {}).get("price"),
-            open_now=json_content.get("parameters", {}).get("open_now"),
-        ),
-    )
