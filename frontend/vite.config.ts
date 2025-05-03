@@ -1,6 +1,7 @@
 import dotenv from 'dotenv'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
 const env = dotenv.config().parsed
 
@@ -9,5 +10,5 @@ export default defineConfig({
   server: {
     port: env?.PORT ? parseInt(env.PORT) : 5173,
   },
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
 })
