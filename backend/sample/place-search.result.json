@@ -1,0 +1,756 @@
+{
+  "results": [
+    {
+      "categories": [
+        {
+          "id": 13031,
+          "name": "Burger Joint",
+          "short_name": "Burgers",
+          "plural_name": "Burger Joints",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/burger_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13068,
+          "name": "American Restaurant",
+          "short_name": "American",
+          "plural_name": "American Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13145,
+          "name": "Fast Food Restaurant",
+          "short_name": "Fast Food",
+          "plural_name": "Fast Food Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Mon 6:00 AM-10:00 PM; Tue-Sat 6:00 AM-9:00 PM; Sun 6:00 AM-10:00 PM",
+        "is_local_holiday": false,
+        "open_now": false,
+        "regular": [
+          {
+            "close": "2200",
+            "day": 1,
+            "open": "0600"
+          },
+          {
+            "close": "2100",
+            "day": 2,
+            "open": "0600"
+          },
+          {
+            "close": "2100",
+            "day": 3,
+            "open": "0600"
+          },
+          {
+            "close": "2100",
+            "day": 4,
+            "open": "0600"
+          },
+          {
+            "close": "2100",
+            "day": 5,
+            "open": "0600"
+          },
+          {
+            "close": "2100",
+            "day": 6,
+            "open": "0600"
+          },
+          {
+            "close": "2200",
+            "day": 7,
+            "open": "0600"
+          }
+        ]
+      },
+      "location": {
+        "address": "103 N Main St",
+        "census_block": "410499701011039",
+        "country": "US",
+        "dma": "Portland, Or",
+        "formatted_address": "103 N Main St, Boardman, OR 97818",
+        "locality": "Boardman",
+        "po_box": "P.O. Box 458",
+        "postcode": "97818",
+        "region": "OR"
+      },
+      "name": "C & D Drive-In",
+      "price": 1,
+      "rating": 7.3
+    },
+    {
+      "categories": [
+        {
+          "id": 13039,
+          "name": "Deli",
+          "short_name": "Deli",
+          "plural_name": "Delis",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13145,
+          "name": "Fast Food Restaurant",
+          "short_name": "Fast Food",
+          "plural_name": "Fast Food Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13334,
+          "name": "Sandwich Spot",
+          "short_name": "Sandwich Spot",
+          "plural_name": "Sandwich Spots",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Mon-Fri 8:00 AM-10:00 PM; Sat-Sun 9:00 AM-9:00 PM",
+        "is_local_holiday": false,
+        "open_now": false,
+        "regular": [
+          {
+            "close": "2200",
+            "day": 1,
+            "open": "0800"
+          },
+          {
+            "close": "2200",
+            "day": 2,
+            "open": "0800"
+          },
+          {
+            "close": "2200",
+            "day": 3,
+            "open": "0800"
+          },
+          {
+            "close": "2200",
+            "day": 4,
+            "open": "0800"
+          },
+          {
+            "close": "2200",
+            "day": 5,
+            "open": "0800"
+          },
+          {
+            "close": "2100",
+            "day": 6,
+            "open": "0900"
+          },
+          {
+            "close": "2100",
+            "day": 7,
+            "open": "0900"
+          }
+        ]
+      },
+      "location": {
+        "address": "115 SE Front St",
+        "census_block": "410499701012000",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Portland, Or",
+        "formatted_address": "115 SE Front St, Boardman, OR 97818",
+        "locality": "Boardman",
+        "postcode": "97818",
+        "region": "OR"
+      },
+      "name": "Subway",
+      "price": 1,
+      "rating": 6.3
+    },
+    {
+      "categories": [
+        {
+          "id": 13303,
+          "name": "Mexican Restaurant",
+          "short_name": "Mexican",
+          "plural_name": "Mexican Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 17057,
+          "name": "Food and Beverage Retail",
+          "short_name": "Food & Beverage",
+          "plural_name": "Food and Beverage Retail",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/foodanddrink_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "is_local_holiday": false,
+        "open_now": false
+      },
+      "location": {
+        "address": "310 S Main St",
+        "census_block": "410499701012021",
+        "country": "US",
+        "dma": "Portland, Or",
+        "formatted_address": "310 S Main St, Boardman, OR 97818",
+        "locality": "Boardman",
+        "postcode": "97818",
+        "region": "OR"
+      },
+      "name": "Ole Mexican Foods"
+    },
+    {
+      "categories": [
+        {
+          "id": 13303,
+          "name": "Mexican Restaurant",
+          "short_name": "Mexican",
+          "plural_name": "Mexican Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 17057,
+          "name": "Food and Beverage Retail",
+          "short_name": "Food & Beverage",
+          "plural_name": "Food and Beverage Retail",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/foodanddrink_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "is_local_holiday": false,
+        "open_now": false
+      },
+      "location": {
+        "address": "103 City Center Dr",
+        "census_block": "410499701012021",
+        "country": "US",
+        "dma": "Portland, Or",
+        "formatted_address": "103 City Center Dr, Boardman, OR 97818",
+        "locality": "Boardman",
+        "postcode": "97818",
+        "region": "OR"
+      },
+      "name": "Ole Mexican Foods"
+    },
+    {
+      "categories": [
+        {
+          "id": 13035,
+          "name": "Coffee Shop",
+          "short_name": "Coffee Shop",
+          "plural_name": "Coffee Shops",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13065,
+          "name": "Restaurant",
+          "short_name": "Restaurant",
+          "plural_name": "Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Mon-Fri 5:00 AM-7:00 PM; Sat-Sun 6:00 AM-6:00 PM",
+        "is_local_holiday": false,
+        "open_now": false,
+        "regular": [
+          {
+            "close": "1900",
+            "day": 1,
+            "open": "0500"
+          },
+          {
+            "close": "1900",
+            "day": 2,
+            "open": "0500"
+          },
+          {
+            "close": "1900",
+            "day": 3,
+            "open": "0500"
+          },
+          {
+            "close": "1900",
+            "day": 4,
+            "open": "0500"
+          },
+          {
+            "close": "1900",
+            "day": 5,
+            "open": "0500"
+          },
+          {
+            "close": "1800",
+            "day": 6,
+            "open": "0600"
+          },
+          {
+            "close": "1800",
+            "day": 7,
+            "open": "0600"
+          }
+        ]
+      },
+      "location": {
+        "address": "103 SE Front St",
+        "census_block": "410499701012001",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Portland, Or",
+        "formatted_address": "103 SE Front St, Boardman, OR 97818",
+        "locality": "Boardman",
+        "postcode": "97818",
+        "region": "OR"
+      },
+      "name": "Boardman Jumpstart Java",
+      "price": 1
+    },
+    {
+      "categories": [
+        {
+          "id": 13049,
+          "name": "Diner",
+          "short_name": "Diner",
+          "plural_name": "Diners",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/diner_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13068,
+          "name": "American Restaurant",
+          "short_name": "American",
+          "plural_name": "American Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Mon-Fri 6:00 AM-1:00 PM; Sat 7:00 AM-1:00 PM",
+        "is_local_holiday": false,
+        "open_now": false,
+        "regular": [
+          {
+            "close": "1300",
+            "day": 1,
+            "open": "0600"
+          },
+          {
+            "close": "1300",
+            "day": 2,
+            "open": "0600"
+          },
+          {
+            "close": "1300",
+            "day": 3,
+            "open": "0600"
+          },
+          {
+            "close": "1300",
+            "day": 4,
+            "open": "0600"
+          },
+          {
+            "close": "1300",
+            "day": 5,
+            "open": "0600"
+          },
+          {
+            "close": "1300",
+            "day": 6,
+            "open": "0700"
+          }
+        ]
+      },
+      "location": {
+        "address": "101 SE Front St",
+        "census_block": "410499701012001",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Portland, Or",
+        "formatted_address": "101 SE Front St, Boardman, OR 97818",
+        "locality": "Boardman",
+        "postcode": "97818",
+        "region": "OR"
+      },
+      "name": "The Sunrise At Boardman",
+      "price": 2
+    },
+    {
+      "categories": [
+        {
+          "id": 13297,
+          "name": "Latin American Restaurant",
+          "short_name": "Latin American",
+          "plural_name": "Latin American Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/latinamerican_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13303,
+          "name": "Mexican Restaurant",
+          "short_name": "Mexican",
+          "plural_name": "Mexican Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Mon-Fri 10:00 AM-6:30 PM; Sat 10:00 AM-5:30 PM",
+        "is_local_holiday": false,
+        "open_now": false,
+        "regular": [
+          {
+            "close": "1830",
+            "day": 1,
+            "open": "1000"
+          },
+          {
+            "close": "1830",
+            "day": 2,
+            "open": "1000"
+          },
+          {
+            "close": "1830",
+            "day": 3,
+            "open": "1000"
+          },
+          {
+            "close": "1830",
+            "day": 4,
+            "open": "1000"
+          },
+          {
+            "close": "1830",
+            "day": 5,
+            "open": "1000"
+          },
+          {
+            "close": "1730",
+            "day": 6,
+            "open": "1000"
+          }
+        ]
+      },
+      "location": {
+        "address": "101 SE Front St",
+        "census_block": "410499701012001",
+        "country": "US",
+        "dma": "Portland, Or",
+        "formatted_address": "101 SE Front St, Boardman, OR 97818",
+        "locality": "Boardman",
+        "postcode": "97818",
+        "region": "OR"
+      },
+      "name": "Taqueria Apatzingan",
+      "price": 2
+    },
+    {
+      "categories": [
+        {
+          "id": 13031,
+          "name": "Burger Joint",
+          "short_name": "Burgers",
+          "plural_name": "Burger Joints",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/burger_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13068,
+          "name": "American Restaurant",
+          "short_name": "American",
+          "plural_name": "American Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13303,
+          "name": "Mexican Restaurant",
+          "short_name": "Mexican",
+          "plural_name": "Mexican Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Open Daily 11:00 AM-10:00 PM",
+        "is_local_holiday": false,
+        "open_now": false,
+        "regular": [
+          {
+            "close": "2200",
+            "day": 1,
+            "open": "1100"
+          },
+          {
+            "close": "2200",
+            "day": 2,
+            "open": "1100"
+          },
+          {
+            "close": "2200",
+            "day": 3,
+            "open": "1100"
+          },
+          {
+            "close": "2200",
+            "day": 4,
+            "open": "1100"
+          },
+          {
+            "close": "2200",
+            "day": 5,
+            "open": "1100"
+          },
+          {
+            "close": "2200",
+            "day": 6,
+            "open": "1100"
+          },
+          {
+            "close": "2200",
+            "day": 7,
+            "open": "1100"
+          }
+        ]
+      },
+      "location": {
+        "address": "100 1st St NW",
+        "census_block": "410499701011015",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Portland, Or",
+        "formatted_address": "100 1st St NW, Boardman, OR 97818",
+        "locality": "Boardman",
+        "postcode": "97818",
+        "region": "OR"
+      },
+      "name": "Village Restaurant",
+      "price": 2
+    },
+    {
+      "categories": [
+        {
+          "id": 13035,
+          "name": "Coffee Shop",
+          "short_name": "Coffee Shop",
+          "plural_name": "Coffee Shops",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13065,
+          "name": "Restaurant",
+          "short_name": "Restaurant",
+          "plural_name": "Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Mon-Fri 5:00 AM-7:00 PM; Sat 6:00 AM-6:00 PM; Sun 7:00 AM-4:00 PM",
+        "is_local_holiday": false,
+        "open_now": false,
+        "regular": [
+          {
+            "close": "1900",
+            "day": 1,
+            "open": "0500"
+          },
+          {
+            "close": "1900",
+            "day": 2,
+            "open": "0500"
+          },
+          {
+            "close": "1900",
+            "day": 3,
+            "open": "0500"
+          },
+          {
+            "close": "1900",
+            "day": 4,
+            "open": "0500"
+          },
+          {
+            "close": "1900",
+            "day": 5,
+            "open": "0500"
+          },
+          {
+            "close": "1800",
+            "day": 6,
+            "open": "0600"
+          },
+          {
+            "close": "1600",
+            "day": 7,
+            "open": "0700"
+          }
+        ]
+      },
+      "location": {
+        "address": "101 SE Front St",
+        "census_block": "410499701012001",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Portland, Or",
+        "formatted_address": "101 SE Front St, Boardman, OR 97818",
+        "locality": "Boardman",
+        "postcode": "97818",
+        "region": "OR"
+      },
+      "name": "Boardman Jumpstart Java",
+      "price": 1
+    },
+    {
+      "categories": [
+        {
+          "id": 13016,
+          "name": "Lounge",
+          "short_name": "Lounge",
+          "plural_name": "Lounges",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13022,
+          "name": "Sports Bar",
+          "short_name": "Sports Bar",
+          "plural_name": "Sports Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/sportsbar_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13065,
+          "name": "Restaurant",
+          "short_name": "Restaurant",
+          "plural_name": "Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Mon-Wed 11:00 AM-10:00 PM; Thu-Sat 11:00 AM-11:59 PM; Sun 11:00 AM-10:00 PM",
+        "is_local_holiday": false,
+        "open_now": false,
+        "regular": [
+          {
+            "close": "2200",
+            "day": 1,
+            "open": "1100"
+          },
+          {
+            "close": "2200",
+            "day": 2,
+            "open": "1100"
+          },
+          {
+            "close": "2200",
+            "day": 3,
+            "open": "1100"
+          },
+          {
+            "close": "2359",
+            "day": 4,
+            "open": "1100"
+          },
+          {
+            "close": "2359",
+            "day": 5,
+            "open": "1100"
+          },
+          {
+            "close": "2359",
+            "day": 6,
+            "open": "1100"
+          },
+          {
+            "close": "2200",
+            "day": 7,
+            "open": "1100"
+          }
+        ]
+      },
+      "location": {
+        "address": "102 NW Boardman Ave",
+        "census_block": "410499701011038",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Portland, Or",
+        "formatted_address": "102 NW Boardman Ave, Boardman, OR 97818",
+        "locality": "Boardman",
+        "postcode": "97818",
+        "region": "OR"
+      },
+      "name": "Smiley's Happy Place",
+      "price": 2
+    }
+  ],
+  "context": {
+    "geo_bounds": {
+      "circle": {
+        "center": {
+          "latitude": 45.8234,
+          "longitude": -119.7257
+        },
+        "radius": 10000
+      }
+    }
+  }
+}

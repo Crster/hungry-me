@@ -1,13 +1,13 @@
 from fastapi import APIRouter, HTTPException, status
 from dto.restaurant import FindRestaurantRequest
-from model import SearchAction
+from model import SearchAction, SearchResult
 from service import language, restaurant
 from service.error import ServiceError
 
 router = APIRouter(prefix="/api", tags=["language"])
 
 
-@router.post("/execute")
+@router.post("/execute", response_model=list[SearchResult])
 async def find_restaurant(body: FindRestaurantRequest):
     try:
         command = await language.message_to_command(body.message)
