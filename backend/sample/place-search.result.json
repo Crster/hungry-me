@@ -1,658 +1,295 @@
 {
   "results": [
     {
+      "fsq_id": "58c2c3921b36d4607b790ff8",
       "categories": [
         {
-          "id": 13031,
-          "name": "Burger Joint",
-          "short_name": "Burgers",
-          "plural_name": "Burger Joints",
+          "id": 13276,
+          "name": "Sushi Restaurant",
+          "short_name": "Sushi",
+          "plural_name": "Sushi Restaurants",
           "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/burger_",
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/sushi_",
             "suffix": ".png"
           }
         },
         {
-          "id": 13068,
-          "name": "American Restaurant",
-          "short_name": "American",
-          "plural_name": "American Restaurants",
+          "id": 13289,
+          "name": "Korean Restaurant",
+          "short_name": "Korean",
+          "plural_name": "Korean Restaurants",
           "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
-            "suffix": ".png"
-          }
-        },
-        {
-          "id": 13145,
-          "name": "Fast Food Restaurant",
-          "short_name": "Fast Food",
-          "plural_name": "Fast Food Restaurants",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/korean_",
             "suffix": ".png"
           }
         }
       ],
       "hours": {
-        "display": "Mon 6:00 AM-10:00 PM; Tue-Sat 6:00 AM-9:00 PM; Sun 6:00 AM-10:00 PM",
+        "display": "Mon-Tue 11:00 AM-9:00 PM; Wed 11:00 AM-12:00 AM; Thu-Sun 12:00 AM-12:00 AM",
         "is_local_holiday": false,
-        "open_now": false,
+        "open_now": true,
         "regular": [
           {
-            "close": "2200",
+            "close": "2100",
             "day": 1,
-            "open": "0600"
+            "open": "1100"
           },
           {
             "close": "2100",
             "day": 2,
-            "open": "0600"
+            "open": "1100"
           },
           {
-            "close": "2100",
+            "close": "+0000",
             "day": 3,
-            "open": "0600"
+            "open": "1100"
           },
           {
-            "close": "2100",
+            "close": "+0000",
             "day": 4,
-            "open": "0600"
+            "open": "0000"
           },
           {
-            "close": "2100",
+            "close": "+0000",
             "day": 5,
-            "open": "0600"
+            "open": "0000"
           },
           {
-            "close": "2100",
+            "close": "+0000",
             "day": 6,
-            "open": "0600"
+            "open": "0000"
           },
           {
-            "close": "2200",
+            "close": "+0000",
             "day": 7,
-            "open": "0600"
+            "open": "0000"
           }
         ]
       },
       "location": {
-        "address": "103 N Main St",
-        "census_block": "410499701011039",
-        "country": "US",
-        "dma": "Portland, Or",
-        "formatted_address": "103 N Main St, Boardman, OR 97818",
-        "locality": "Boardman",
-        "po_box": "P.O. Box 458",
-        "postcode": "97818",
-        "region": "OR"
-      },
-      "name": "C & D Drive-In",
-      "price": 1,
-      "rating": 7.3
-    },
-    {
-      "categories": [
-        {
-          "id": 13039,
-          "name": "Deli",
-          "short_name": "Deli",
-          "plural_name": "Delis",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
-            "suffix": ".png"
-          }
-        },
-        {
-          "id": 13145,
-          "name": "Fast Food Restaurant",
-          "short_name": "Fast Food",
-          "plural_name": "Fast Food Restaurants",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
-            "suffix": ".png"
-          }
-        },
-        {
-          "id": 13334,
-          "name": "Sandwich Spot",
-          "short_name": "Sandwich Spot",
-          "plural_name": "Sandwich Spots",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
-            "suffix": ".png"
-          }
-        }
-      ],
-      "hours": {
-        "display": "Mon-Fri 8:00 AM-10:00 PM; Sat-Sun 9:00 AM-9:00 PM",
-        "is_local_holiday": false,
-        "open_now": false,
-        "regular": [
-          {
-            "close": "2200",
-            "day": 1,
-            "open": "0800"
-          },
-          {
-            "close": "2200",
-            "day": 2,
-            "open": "0800"
-          },
-          {
-            "close": "2200",
-            "day": 3,
-            "open": "0800"
-          },
-          {
-            "close": "2200",
-            "day": 4,
-            "open": "0800"
-          },
-          {
-            "close": "2200",
-            "day": 5,
-            "open": "0800"
-          },
-          {
-            "close": "2100",
-            "day": 6,
-            "open": "0900"
-          },
-          {
-            "close": "2100",
-            "day": 7,
-            "open": "0900"
-          }
-        ]
-      },
-      "location": {
-        "address": "115 SE Front St",
-        "census_block": "410499701012000",
+        "address": "212 W 7th St",
+        "census_block": "060372073031001",
         "country": "US",
         "cross_street": "",
-        "dma": "Portland, Or",
-        "formatted_address": "115 SE Front St, Boardman, OR 97818",
-        "locality": "Boardman",
-        "postcode": "97818",
-        "region": "OR"
+        "dma": "Los Angeles",
+        "formatted_address": "212 W 7th St, Los Angeles, CA 90014",
+        "locality": "Los Angeles",
+        "postcode": "90014",
+        "region": "CA"
       },
-      "name": "Subway",
-      "price": 1,
-      "rating": 6.3
+      "name": "Goshen Cuisine",
+      "photos": [
+        {
+          "id": "5d814d9fdcfa830008bbb13a",
+          "created_at": "2019-09-17T21:18:23.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/47036801_byeA3PHn8PKHQy2U3uAymZUH1pAAB9Z8J6vGvhPh6Ys.jpg",
+          "width": 1080,
+          "height": 1920,
+          "classifications": ["food"]
+        },
+        {
+          "id": "5d2554c1e38842002301e5c4",
+          "created_at": "2019-07-10T03:00:17.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/47036801_BtlDbe8wgSnccrvsH4Ynp5hy_B7RrY-IvP1b2v_upeM.jpg",
+          "width": 1080,
+          "height": 1920,
+          "classifications": ["food"]
+        },
+        {
+          "id": "5cda379aab42d9002c93bf5e",
+          "created_at": "2019-05-14T03:35:54.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/47036801_UUzDXrYg4KguI_afGQncjnMROH5lD4WXdiDP2TueC4k.jpg",
+          "width": 1080,
+          "height": 1920,
+          "classifications": ["food"]
+        },
+        {
+          "id": "5cba7d1260255e0039da9f93",
+          "created_at": "2019-04-20T01:59:46.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/47036801_41r-kXrBxIQpmWhq1sT2SRb0I60dhuYuxCSL9HdcBDU.jpg",
+          "width": 1080,
+          "height": 1920,
+          "classifications": ["food"]
+        },
+        {
+          "id": "5cb1544b4c9be6002b96efdf",
+          "created_at": "2019-04-13T03:15:23.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/47036801_4LgUiwD4arMnSm1nXsn_ZZSWBPr2GP_JT8ey48-7WUo.jpg",
+          "width": 1080,
+          "height": 1920,
+          "classifications": ["food"]
+        }
+      ],
+      "price": 2,
+      "rating": 7.8,
+      "website": "http://www.goshencuisine.com"
     },
     {
+      "fsq_id": "4a0b9402f964a52003751fe3",
       "categories": [
         {
-          "id": 13303,
-          "name": "Mexican Restaurant",
-          "short_name": "Mexican",
-          "plural_name": "Mexican Restaurants",
+          "id": 13099,
+          "name": "Chinese Restaurant",
+          "short_name": "Chinese",
+          "plural_name": "Chinese Restaurants",
           "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/asian_",
             "suffix": ".png"
           }
         },
         {
-          "id": 17057,
-          "name": "Food and Beverage Retail",
-          "short_name": "Food & Beverage",
-          "plural_name": "Food and Beverage Retail",
+          "id": 13276,
+          "name": "Sushi Restaurant",
+          "short_name": "Sushi",
+          "plural_name": "Sushi Restaurants",
           "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/foodanddrink_",
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/sushi_",
             "suffix": ".png"
           }
         }
       ],
       "hours": {
+        "display": "Open Daily 12:00 AM-2:00 AM",
         "is_local_holiday": false,
-        "open_now": false
-      },
-      "location": {
-        "address": "310 S Main St",
-        "census_block": "410499701012021",
-        "country": "US",
-        "dma": "Portland, Or",
-        "formatted_address": "310 S Main St, Boardman, OR 97818",
-        "locality": "Boardman",
-        "postcode": "97818",
-        "region": "OR"
-      },
-      "name": "Ole Mexican Foods"
-    },
-    {
-      "categories": [
-        {
-          "id": 13303,
-          "name": "Mexican Restaurant",
-          "short_name": "Mexican",
-          "plural_name": "Mexican Restaurants",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
-            "suffix": ".png"
-          }
-        },
-        {
-          "id": 17057,
-          "name": "Food and Beverage Retail",
-          "short_name": "Food & Beverage",
-          "plural_name": "Food and Beverage Retail",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/foodanddrink_",
-            "suffix": ".png"
-          }
-        }
-      ],
-      "hours": {
-        "is_local_holiday": false,
-        "open_now": false
-      },
-      "location": {
-        "address": "103 City Center Dr",
-        "census_block": "410499701012021",
-        "country": "US",
-        "dma": "Portland, Or",
-        "formatted_address": "103 City Center Dr, Boardman, OR 97818",
-        "locality": "Boardman",
-        "postcode": "97818",
-        "region": "OR"
-      },
-      "name": "Ole Mexican Foods"
-    },
-    {
-      "categories": [
-        {
-          "id": 13035,
-          "name": "Coffee Shop",
-          "short_name": "Coffee Shop",
-          "plural_name": "Coffee Shops",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
-            "suffix": ".png"
-          }
-        },
-        {
-          "id": 13065,
-          "name": "Restaurant",
-          "short_name": "Restaurant",
-          "plural_name": "Restaurants",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
-            "suffix": ".png"
-          }
-        }
-      ],
-      "hours": {
-        "display": "Mon-Fri 5:00 AM-7:00 PM; Sat-Sun 6:00 AM-6:00 PM",
-        "is_local_holiday": false,
-        "open_now": false,
+        "open_now": true,
         "regular": [
           {
-            "close": "1900",
+            "close": "0200",
             "day": 1,
-            "open": "0500"
+            "open": "0000"
           },
           {
-            "close": "1900",
+            "close": "+0000",
+            "day": 1,
+            "open": "1100"
+          },
+          {
+            "close": "0200",
             "day": 2,
-            "open": "0500"
+            "open": "0000"
           },
           {
-            "close": "1900",
+            "close": "+0000",
+            "day": 2,
+            "open": "1100"
+          },
+          {
+            "close": "0200",
             "day": 3,
-            "open": "0500"
+            "open": "0000"
           },
           {
-            "close": "1900",
+            "close": "+0000",
+            "day": 3,
+            "open": "1100"
+          },
+          {
+            "close": "0200",
             "day": 4,
-            "open": "0500"
+            "open": "0000"
           },
           {
-            "close": "1900",
+            "close": "+0000",
+            "day": 4,
+            "open": "1100"
+          },
+          {
+            "close": "0200",
             "day": 5,
-            "open": "0500"
+            "open": "0000"
           },
           {
-            "close": "1800",
+            "close": "+0000",
+            "day": 5,
+            "open": "1100"
+          },
+          {
+            "close": "0200",
             "day": 6,
-            "open": "0600"
+            "open": "0000"
           },
           {
-            "close": "1800",
+            "close": "+0000",
+            "day": 6,
+            "open": "1200"
+          },
+          {
+            "close": "0200",
             "day": 7,
-            "open": "0600"
-          }
-        ]
-      },
-      "location": {
-        "address": "103 SE Front St",
-        "census_block": "410499701012001",
-        "country": "US",
-        "cross_street": "",
-        "dma": "Portland, Or",
-        "formatted_address": "103 SE Front St, Boardman, OR 97818",
-        "locality": "Boardman",
-        "postcode": "97818",
-        "region": "OR"
-      },
-      "name": "Boardman Jumpstart Java",
-      "price": 1
-    },
-    {
-      "categories": [
-        {
-          "id": 13049,
-          "name": "Diner",
-          "short_name": "Diner",
-          "plural_name": "Diners",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/diner_",
-            "suffix": ".png"
-          }
-        },
-        {
-          "id": 13068,
-          "name": "American Restaurant",
-          "short_name": "American",
-          "plural_name": "American Restaurants",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
-            "suffix": ".png"
-          }
-        }
-      ],
-      "hours": {
-        "display": "Mon-Fri 6:00 AM-1:00 PM; Sat 7:00 AM-1:00 PM",
-        "is_local_holiday": false,
-        "open_now": false,
-        "regular": [
-          {
-            "close": "1300",
-            "day": 1,
-            "open": "0600"
+            "open": "0000"
           },
           {
-            "close": "1300",
-            "day": 2,
-            "open": "0600"
-          },
-          {
-            "close": "1300",
-            "day": 3,
-            "open": "0600"
-          },
-          {
-            "close": "1300",
-            "day": 4,
-            "open": "0600"
-          },
-          {
-            "close": "1300",
-            "day": 5,
-            "open": "0600"
-          },
-          {
-            "close": "1300",
-            "day": 6,
-            "open": "0700"
-          }
-        ]
-      },
-      "location": {
-        "address": "101 SE Front St",
-        "census_block": "410499701012001",
-        "country": "US",
-        "cross_street": "",
-        "dma": "Portland, Or",
-        "formatted_address": "101 SE Front St, Boardman, OR 97818",
-        "locality": "Boardman",
-        "postcode": "97818",
-        "region": "OR"
-      },
-      "name": "The Sunrise At Boardman",
-      "price": 2
-    },
-    {
-      "categories": [
-        {
-          "id": 13297,
-          "name": "Latin American Restaurant",
-          "short_name": "Latin American",
-          "plural_name": "Latin American Restaurants",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/latinamerican_",
-            "suffix": ".png"
-          }
-        },
-        {
-          "id": 13303,
-          "name": "Mexican Restaurant",
-          "short_name": "Mexican",
-          "plural_name": "Mexican Restaurants",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
-            "suffix": ".png"
-          }
-        }
-      ],
-      "hours": {
-        "display": "Mon-Fri 10:00 AM-6:30 PM; Sat 10:00 AM-5:30 PM",
-        "is_local_holiday": false,
-        "open_now": false,
-        "regular": [
-          {
-            "close": "1830",
-            "day": 1,
-            "open": "1000"
-          },
-          {
-            "close": "1830",
-            "day": 2,
-            "open": "1000"
-          },
-          {
-            "close": "1830",
-            "day": 3,
-            "open": "1000"
-          },
-          {
-            "close": "1830",
-            "day": 4,
-            "open": "1000"
-          },
-          {
-            "close": "1830",
-            "day": 5,
-            "open": "1000"
-          },
-          {
-            "close": "1730",
-            "day": 6,
-            "open": "1000"
-          }
-        ]
-      },
-      "location": {
-        "address": "101 SE Front St",
-        "census_block": "410499701012001",
-        "country": "US",
-        "dma": "Portland, Or",
-        "formatted_address": "101 SE Front St, Boardman, OR 97818",
-        "locality": "Boardman",
-        "postcode": "97818",
-        "region": "OR"
-      },
-      "name": "Taqueria Apatzingan",
-      "price": 2
-    },
-    {
-      "categories": [
-        {
-          "id": 13031,
-          "name": "Burger Joint",
-          "short_name": "Burgers",
-          "plural_name": "Burger Joints",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/burger_",
-            "suffix": ".png"
-          }
-        },
-        {
-          "id": 13068,
-          "name": "American Restaurant",
-          "short_name": "American",
-          "plural_name": "American Restaurants",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
-            "suffix": ".png"
-          }
-        },
-        {
-          "id": 13303,
-          "name": "Mexican Restaurant",
-          "short_name": "Mexican",
-          "plural_name": "Mexican Restaurants",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
-            "suffix": ".png"
-          }
-        }
-      ],
-      "hours": {
-        "display": "Open Daily 11:00 AM-10:00 PM",
-        "is_local_holiday": false,
-        "open_now": false,
-        "regular": [
-          {
-            "close": "2200",
-            "day": 1,
-            "open": "1100"
-          },
-          {
-            "close": "2200",
-            "day": 2,
-            "open": "1100"
-          },
-          {
-            "close": "2200",
-            "day": 3,
-            "open": "1100"
-          },
-          {
-            "close": "2200",
-            "day": 4,
-            "open": "1100"
-          },
-          {
-            "close": "2200",
-            "day": 5,
-            "open": "1100"
-          },
-          {
-            "close": "2200",
-            "day": 6,
-            "open": "1100"
-          },
-          {
-            "close": "2200",
+            "close": "+0000",
             "day": 7,
-            "open": "1100"
+            "open": "1200"
           }
         ]
       },
       "location": {
-        "address": "100 1st St NW",
-        "census_block": "410499701011015",
+        "address": "800 W 7th St",
+        "census_block": "060372077111006",
         "country": "US",
-        "cross_street": "",
-        "dma": "Portland, Or",
-        "formatted_address": "100 1st St NW, Boardman, OR 97818",
-        "locality": "Boardman",
-        "postcode": "97818",
-        "region": "OR"
+        "cross_street": "at Flower St",
+        "dma": "Los Angeles",
+        "formatted_address": "800 W 7th St (at Flower St), Los Angeles, CA 90017",
+        "locality": "Los Angeles",
+        "postcode": "90017",
+        "region": "CA"
       },
-      "name": "Village Restaurant",
-      "price": 2
-    },
-    {
-      "categories": [
+      "name": "Wokcano",
+      "photos": [
         {
-          "id": 13035,
-          "name": "Coffee Shop",
-          "short_name": "Coffee Shop",
-          "plural_name": "Coffee Shops",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
-            "suffix": ".png"
-          }
+          "id": "66fa319dc5139233754aa6e8",
+          "created_at": "2024-09-30T05:05:33.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/3709928_gZx2YHDjg-djhxBZD_qtArmHi4otWZm5RG8W5OMZf0M.jpg",
+          "width": 1920,
+          "height": 1440
         },
         {
-          "id": 13065,
-          "name": "Restaurant",
-          "short_name": "Restaurant",
-          "plural_name": "Restaurants",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
-            "suffix": ".png"
-          }
+          "id": "66fa2f704f695052ee6250a9",
+          "created_at": "2024-09-30T04:56:16.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/3709928_7T61fFlDdVZDgsIvzxjWoIsPzxWhxSNkgB7rIxKXYqQ.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "id": "658e59a5f898e301ef9a6c92",
+          "created_at": "2023-12-29T05:31:17.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/52253043_-olInYgnwhCvnjZA3pDFsTQoZYjhr9X9K9kotdMBmZ4.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "63b2bfd78c054236699bb9e9",
+          "created_at": "2023-01-02T11:28:23.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/596432844_GimnZ6BXFt8KzfSyk2D7FyVy35YEGkug-nC5NiTnuCg.jpg",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "id": "625a5bd80eac2d1f57b83740",
+          "created_at": "2022-04-16T06:02:00.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/19795528_LBpBmlNPMsMxdTFiLr0mrjaBszj84vjreYmz188ndSo.jpg",
+          "width": 1440,
+          "height": 1920
         }
       ],
-      "hours": {
-        "display": "Mon-Fri 5:00 AM-7:00 PM; Sat 6:00 AM-6:00 PM; Sun 7:00 AM-4:00 PM",
-        "is_local_holiday": false,
-        "open_now": false,
-        "regular": [
-          {
-            "close": "1900",
-            "day": 1,
-            "open": "0500"
-          },
-          {
-            "close": "1900",
-            "day": 2,
-            "open": "0500"
-          },
-          {
-            "close": "1900",
-            "day": 3,
-            "open": "0500"
-          },
-          {
-            "close": "1900",
-            "day": 4,
-            "open": "0500"
-          },
-          {
-            "close": "1900",
-            "day": 5,
-            "open": "0500"
-          },
-          {
-            "close": "1800",
-            "day": 6,
-            "open": "0600"
-          },
-          {
-            "close": "1600",
-            "day": 7,
-            "open": "0700"
-          }
-        ]
-      },
-      "location": {
-        "address": "101 SE Front St",
-        "census_block": "410499701012001",
-        "country": "US",
-        "cross_street": "",
-        "dma": "Portland, Or",
-        "formatted_address": "101 SE Front St, Boardman, OR 97818",
-        "locality": "Boardman",
-        "postcode": "97818",
-        "region": "OR"
-      },
-      "name": "Boardman Jumpstart Java",
-      "price": 1
+      "price": 2,
+      "rating": 7.6,
+      "website": "http://www.wokcanorestaurant.com"
     },
     {
+      "fsq_id": "546d7a48498ec900796c5c8a",
       "categories": [
         {
           "id": 13016,
@@ -665,12 +302,567 @@
           }
         },
         {
-          "id": 13022,
-          "name": "Sports Bar",
-          "short_name": "Sports Bar",
-          "plural_name": "Sports Bars",
+          "id": 13276,
+          "name": "Sushi Restaurant",
+          "short_name": "Sushi",
+          "plural_name": "Sushi Restaurants",
           "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/sportsbar_",
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/sushi_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13338,
+          "name": "Seafood Restaurant",
+          "short_name": "Seafood",
+          "plural_name": "Seafood Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/seafood_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "description": "A contemporary Japanese Restaurant with a robust Japanese Whisky Collection which is only rivaled by it's art collection from Tokyo.",
+      "hours": {
+        "display": "Thu 7:00 PM-11:59 PM; Fri 12:00 AM-11:59 PM; Sat-Sun 12:00 AM-2:00 AM",
+        "is_local_holiday": false,
+        "open_now": true,
+        "regular": [
+          {
+            "close": "2359",
+            "day": 4,
+            "open": "1900"
+          },
+          {
+            "close": "0100",
+            "day": 5,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 5,
+            "open": "1900"
+          },
+          {
+            "close": "0200",
+            "day": 6,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 6,
+            "open": "1900"
+          },
+          {
+            "close": "0200",
+            "day": 7,
+            "open": "0000"
+          }
+        ]
+      },
+      "location": {
+        "address": "448 S Hill St",
+        "census_block": "060372073051004",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Los Angeles",
+        "formatted_address": "448 S Hill St, Los Angeles, CA 90013",
+        "locality": "Los Angeles",
+        "postcode": "90013",
+        "region": "CA"
+      },
+      "name": "Mrs Fish",
+      "photos": [
+        {
+          "id": "5661e20e498ead07eb46a234",
+          "created_at": "2015-12-04T18:57:18.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/396098_ASsBorkz6ge4HcDuvjrmlrRAGxNJWm5hqJoYfypUgec.jpg",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "id": "565aa178498e08b33e4006a3",
+          "created_at": "2015-11-29T06:55:52.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/5621299_DiRlnJYkkO2SWvn0nCMRtZn5ugZDmEDTp2DDdmTEjiU.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "55b260ab498e8dd9da8f14b6",
+          "created_at": "2015-07-24T15:58:35.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/4256845_AvXBdOO2HewHHS-CVncaYXlUR-OwwZcp1KK5L3TrMP0.jpg",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "id": "5663e166498e7315a92d8278",
+          "created_at": "2015-12-06T07:19:02.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/18828334_L-usYzsV5L5U7zL-Kmi16CQY-utW5tzZX2NX663FlHY.jpg",
+          "width": 1920,
+          "height": 1440,
+          "classifications": ["food"]
+        },
+        {
+          "id": "57b01e10498e0a214f42e38d",
+          "created_at": "2016-08-14T07:30:24.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/44796281_4sj3mmXH6aD_2zrsirKlGzA3V_EADKntFBJt9XLfVog.jpg",
+          "width": 1920,
+          "height": 1440
+        }
+      ],
+      "price": 2,
+      "rating": 8.2,
+      "website": "http://mrsfish.com"
+    },
+    {
+      "fsq_id": "5b429a7e7564f7002c33491d",
+      "categories": [
+        {
+          "id": 13009,
+          "name": "Cocktail Bar",
+          "short_name": "Cocktail",
+          "plural_name": "Cocktail Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13025,
+          "name": "Wine Bar",
+          "short_name": "Wine Bar",
+          "plural_name": "Wine Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/winery_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13343,
+          "name": "South American Restaurant",
+          "short_name": "South American",
+          "plural_name": "South American Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/argentinian_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Mon-Thu 5:00 PM-11:59 PM; Fri-Sun 12:00 AM-11:59 PM",
+        "is_local_holiday": false,
+        "open_now": true,
+        "regular": [
+          {
+            "close": "2359",
+            "day": 1,
+            "open": "1700"
+          },
+          {
+            "close": "2359",
+            "day": 2,
+            "open": "1700"
+          },
+          {
+            "close": "2359",
+            "day": 3,
+            "open": "1700"
+          },
+          {
+            "close": "2359",
+            "day": 4,
+            "open": "1700"
+          },
+          {
+            "close": "0130",
+            "day": 5,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 5,
+            "open": "1700"
+          },
+          {
+            "close": "0130",
+            "day": 6,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 6,
+            "open": "1700"
+          },
+          {
+            "close": "0130",
+            "day": 7,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 7,
+            "open": "1700"
+          }
+        ]
+      },
+      "location": {
+        "address": "612 E 11th St",
+        "census_block": "060372260021036",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Los Angeles",
+        "formatted_address": "612 E 11th St, Los Angeles, CA 90015",
+        "locality": "Los Angeles",
+        "postcode": "90015",
+        "region": "CA"
+      },
+      "name": "Dama",
+      "photos": [
+        {
+          "id": "656a08171cf7dc18fc4c6fd4",
+          "created_at": "2023-12-01T16:21:43.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/20163187_3iR30wmVKEOO9J3M6gRMROEfpzA1dV-VfwszdyA9bS4.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "656a0813fb56590a0dbddd42",
+          "created_at": "2023-12-01T16:21:39.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/20163187_FJq75-Em2TKHOYFkI5uWTgXxuoLuS8XJ5kJYfB7Rw5o.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "63afa310c998026876b18357",
+          "created_at": "2022-12-31T02:48:48.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/54492430_eC7hTICWNq_YFOiLjCFZISuZgiN1wcd50Hg2nYxnt30.jpg",
+          "width": 1440,
+          "height": 1920
+        }
+      ],
+      "price": 2,
+      "rating": 8.6,
+      "website": "http://www.damafashiondistrict.com"
+    },
+    {
+      "fsq_id": "4dd5b40245ddced8205d2c8e",
+      "categories": [
+        {
+          "id": 13009,
+          "name": "Cocktail Bar",
+          "short_name": "Cocktail",
+          "plural_name": "Cocktail Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13016,
+          "name": "Lounge",
+          "short_name": "Lounge",
+          "plural_name": "Lounges",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13026,
+          "name": "BBQ Joint",
+          "short_name": "BBQ",
+          "plural_name": "BBQ Joints",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Mon-Fri 12:00 PM-11:59 PM; Sat-Sun 12:00 AM-2:00 AM",
+        "is_local_holiday": false,
+        "open_now": true,
+        "regular": [
+          {
+            "close": "2359",
+            "day": 1,
+            "open": "1200"
+          },
+          {
+            "close": "2359",
+            "day": 2,
+            "open": "1200"
+          },
+          {
+            "close": "2359",
+            "day": 3,
+            "open": "1200"
+          },
+          {
+            "close": "2359",
+            "day": 4,
+            "open": "1200"
+          },
+          {
+            "close": "2359",
+            "day": 5,
+            "open": "1200"
+          },
+          {
+            "close": "0200",
+            "day": 6,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 6,
+            "open": "1200"
+          },
+          {
+            "close": "0200",
+            "day": 7,
+            "open": "0000"
+          }
+        ]
+      },
+      "location": {
+        "address": "100 W 9th St",
+        "census_block": "060372079021006",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Los Angeles",
+        "formatted_address": "100 W 9th St, Los Angeles, CA 90015",
+        "locality": "Los Angeles",
+        "postcode": "90015",
+        "region": "CA"
+      },
+      "name": "Pattern Bar",
+      "photos": [
+        {
+          "id": "6293b379321d3a25177f6c61",
+          "created_at": "2022-05-29T17:55:05.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/96249433_9sEMI4rPSRe04aynADuXCnFk4YRvMOSMk2YmUMbjvZM.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "6292e87c8d6fb3643abe0b66",
+          "created_at": "2022-05-29T03:29:00.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/47723345_oZi5jvV8lI-S1R9OtCIfZmkY1SvggxmaHVpgoqMAjaU.jpg",
+          "width": 1512,
+          "height": 2016
+        },
+        {
+          "id": "62524f91bebc992b359883d9",
+          "created_at": "2022-04-10T03:31:29.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/29281495_Evk94Gnt8-kqojA2RDuPzg5w2vApi8UQUz_y7tj22Lw.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "id": "62524da62d6756132c1fae44",
+          "created_at": "2022-04-10T03:23:18.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/29281495_DpG_Dsg1PjypZMBxnI7FNyWyUS5RB7MYdTRHAFBwlDU.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "id": "606401bcae67d77d90706252",
+          "created_at": "2021-03-31T04:59:40.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/29422664_KrPcCY85kRnvgCi4uXcHpvAw7X6UkCdcrc4jdAnNJpU.jpg",
+          "width": 1080,
+          "height": 1440
+        }
+      ],
+      "price": 2,
+      "rating": 8,
+      "website": "http://www.patternbar.com"
+    },
+    {
+      "fsq_id": "4e1f936a628469a57402c1db",
+      "categories": [
+        {
+          "id": 13148,
+          "name": "French Restaurant",
+          "short_name": "French",
+          "plural_name": "French Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/french_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "description": "PERCH LOS ANGELES is an elevated resting place. A French inspired rooftop lounge & bistro offering unobstructed views of DTLA. Age 21 and over after 9:00pm",
+      "hours": {
+        "display": "Mon-Thu 12:00 AM-11:59 PM; Fri-Sun 12:00 AM-2:00 AM",
+        "is_local_holiday": false,
+        "open_now": true,
+        "regular": [
+          {
+            "close": "0100",
+            "day": 1,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 1,
+            "open": "1600"
+          },
+          {
+            "close": "0100",
+            "day": 2,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 2,
+            "open": "1600"
+          },
+          {
+            "close": "0100",
+            "day": 3,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 3,
+            "open": "1600"
+          },
+          {
+            "close": "0100",
+            "day": 4,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 4,
+            "open": "1600"
+          },
+          {
+            "close": "0200",
+            "day": 5,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 5,
+            "open": "1600"
+          },
+          {
+            "close": "0200",
+            "day": 6,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 6,
+            "open": "1100"
+          },
+          {
+            "close": "0200",
+            "day": 7,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 7,
+            "open": "1100"
+          }
+        ]
+      },
+      "location": {
+        "address": "448 S Hill St",
+        "address_extended": "Ste 1312",
+        "census_block": "060372073051004",
+        "country": "US",
+        "cross_street": "13th Floor",
+        "dma": "Los Angeles",
+        "formatted_address": "448 S Hill St (13th Floor), Los Angeles, CA 90013",
+        "locality": "Los Angeles",
+        "postcode": "90013",
+        "region": "CA"
+      },
+      "name": "Perch",
+      "photos": [
+        {
+          "id": "54961dcf498e8b67dcccf3fc",
+          "created_at": "2014-12-21T01:09:35.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/36971_vXQfwXg7ZW_8A79XivmFWG3uce43ZBSYus3sZEr9wck.jpg",
+          "width": 1920,
+          "height": 1440,
+          "classifications": ["outdoor"]
+        },
+        {
+          "id": "518af2bc498efe80acfaa5a7",
+          "created_at": "2013-05-09T00:50:04.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/1851624_OkRsAuEoni0P3N1S9xg0dlDSOuxS-PLYTaBYiGy-i-s.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "id": "67e89a987a1067188d0a6ac9",
+          "created_at": "2025-03-30T01:12:56.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/27350500_hiLtVON8ukL_XjPwtS0-2dft0d9KewZqFHT0FiENZRY.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "67d63633b7a5d03e6a64e2c4",
+          "created_at": "2025-03-16T02:23:47.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/580923276_Csw1I59g1b8b1hrCzHRRkyiVDFmGlPumuvhoBerTS9M.jpg",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "id": "67d636314b8a631ab254d1c7",
+          "created_at": "2025-03-16T02:23:45.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/580923276_xjuYWmz0O67pNIZh41Ru7UyT2_7WcHd8UQfBywtZrKg.jpg",
+          "width": 1080,
+          "height": 1920
+        }
+      ],
+      "price": 3,
+      "rating": 8.9,
+      "website": "http://www.perchla.com"
+    },
+    {
+      "fsq_id": "55fccaa5498ec525f32b644d",
+      "categories": [
+        {
+          "id": 13009,
+          "name": "Cocktail Bar",
+          "short_name": "Cocktail",
+          "plural_name": "Cocktail Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13025,
+          "name": "Wine Bar",
+          "short_name": "Wine Bar",
+          "plural_name": "Wine Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/winery_",
             "suffix": ".png"
           }
         },
@@ -686,34 +878,337 @@
         }
       ],
       "hours": {
-        "display": "Mon-Wed 11:00 AM-10:00 PM; Thu-Sat 11:00 AM-11:59 PM; Sun 11:00 AM-10:00 PM",
+        "display": "Tue-Wed 4:00 PM-11:00 PM; Thu 4:00 PM-12:00 AM; Fri-Sun 12:00 AM-2:00 AM",
         "is_local_holiday": false,
-        "open_now": false,
+        "open_now": true,
         "regular": [
           {
-            "close": "2200",
-            "day": 1,
-            "open": "1100"
-          },
-          {
-            "close": "2200",
+            "close": "2300",
             "day": 2,
-            "open": "1100"
+            "open": "1600"
           },
           {
-            "close": "2200",
+            "close": "2300",
             "day": 3,
-            "open": "1100"
+            "open": "1600"
+          },
+          {
+            "close": "+0000",
+            "day": 4,
+            "open": "1600"
+          },
+          {
+            "close": "0200",
+            "day": 5,
+            "open": "0000"
+          },
+          {
+            "close": "+0000",
+            "day": 5,
+            "open": "1600"
+          },
+          {
+            "close": "0200",
+            "day": 6,
+            "open": "0000"
+          },
+          {
+            "close": "+0000",
+            "day": 6,
+            "open": "1600"
+          },
+          {
+            "close": "0200",
+            "day": 7,
+            "open": "0000"
+          },
+          {
+            "close": "2300",
+            "day": 7,
+            "open": "1600"
+          }
+        ]
+      },
+      "location": {
+        "address": "1936 E 7th St",
+        "census_block": "060372060511012",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Los Angeles",
+        "formatted_address": "1936 E 7th St, Los Angeles, CA 90021",
+        "locality": "Los Angeles",
+        "postcode": "90021",
+        "region": "CA"
+      },
+      "name": "Everson Rocye Bar",
+      "photos": [
+        {
+          "id": "568330d1498e448e7895d42e",
+          "created_at": "2015-12-30T01:18:09.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/60270_VBsZaj_jmS70536mBtM25X2qBAJEo-gY3wPppddaAkA.jpg",
+          "width": 1080,
+          "height": 1080,
+          "classifications": ["food"]
+        },
+        {
+          "id": "631571f0a9e0f87ccc86228b",
+          "created_at": "2022-09-05T03:50:08.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/18764426_Yg8hg0Lhlkm1cbvAsS-2l1Qq9YLgyce2pmiVjRzwXBI.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "5c748446c97f2800399843d8",
+          "created_at": "2019-02-26T00:11:50.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/14760245_IRcaMQX7ZimdLbvNURRNxkrQJW14SOvEClqpKYuGqgI.jpg",
+          "width": 1813,
+          "height": 1440,
+          "classifications": ["food"]
+        },
+        {
+          "id": "57edb4bc498e87c6c6b70461",
+          "created_at": "2016-09-30T00:41:32.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/60270_gyJDhhs9pO9mXNvcMsaYbZk_mA5YTb-FcsdVVDM5jaA.jpg",
+          "width": 1920,
+          "height": 1339
+        },
+        {
+          "id": "5b56a33ea42362002cce2ae9",
+          "created_at": "2018-07-24T03:55:42.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/18764426_OhbTEOYSLvNU0BrK9dw5ncXCGsIk83wjYQmu855QMqE.jpg",
+          "width": 1440,
+          "height": 1440,
+          "classifications": ["indoor"]
+        }
+      ],
+      "price": 3,
+      "rating": 9.2,
+      "website": "http://www.erbla.com"
+    },
+    {
+      "fsq_id": "4a492436f964a52006ab1fe3",
+      "categories": [
+        {
+          "id": 13031,
+          "name": "Burger Joint",
+          "short_name": "Burgers",
+          "plural_name": "Burger Joints",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/burger_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13034,
+          "name": "Café",
+          "short_name": "Café",
+          "plural_name": "Cafés",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13068,
+          "name": "American Restaurant",
+          "short_name": "American",
+          "plural_name": "American Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "description": "At LA Café we strive to give you the freshest and best experience possible. We offer breakfast,coffee,baked goods, burgers, paninis and American eats",
+      "hours": {
+        "display": "Open Daily 12:00 AM-11:59 PM",
+        "is_local_holiday": false,
+        "open_now": true,
+        "regular": [
+          {
+            "close": "2359",
+            "day": 1,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 2,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 3,
+            "open": "0000"
           },
           {
             "close": "2359",
             "day": 4,
-            "open": "1100"
+            "open": "0000"
           },
           {
             "close": "2359",
             "day": 5,
-            "open": "1100"
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 6,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 7,
+            "open": "0000"
+          }
+        ]
+      },
+      "location": {
+        "address": "639 S Spring St",
+        "address_extended": "Ste 16",
+        "census_block": "060372073041001",
+        "country": "US",
+        "cross_street": "btwn W 6th & 7th St",
+        "dma": "Los Angeles",
+        "formatted_address": "639 S Spring St (btwn W 6th & 7th St), Los Angeles, CA 90014",
+        "locality": "Los Angeles",
+        "postcode": "90014",
+        "region": "CA"
+      },
+      "name": "LA Café",
+      "photos": [
+        {
+          "id": "667c62559f3f67615724cfec",
+          "created_at": "2024-06-26T18:47:49.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/516536195_y5vGFpma6thY5aPrKt04wffYEkA7Vu60SJlBVjBEXEA.jpg",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "id": "66312cb958fda076e088ae33",
+          "created_at": "2024-04-30T17:39:05.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/10094511_Gks2yxgWa1TuyBEbXUJ4Bzb5l8-hOzNik7YeIxQDvIQ.jpg",
+          "width": 1080,
+          "height": 1918
+        },
+        {
+          "id": "634e50166396bd772523d7db",
+          "created_at": "2022-10-18T07:04:54.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/15797758_N8K6AtMqR7xmzLUM5hwrxo36mQ44sE7YP8lUaW4cOLw.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "6309d9db07856a3767a53708",
+          "created_at": "2022-08-27T08:46:19.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/496426444_fORbnXnqgKfnf6iLHDzayYIbfscVT27O95KQz9eMBTc.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "6309d9da5c1f982334aaa93b",
+          "created_at": "2022-08-27T08:46:18.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/496426444_FcEKmb4bZa6_-z4ogLy2LgZMiPl4HUBVaYdnSCg9yrE.jpg",
+          "width": 1440,
+          "height": 1920
+        }
+      ],
+      "price": 2,
+      "rating": 8.2,
+      "website": "http://www.lacafe.com"
+    },
+    {
+      "fsq_id": "4e53038eae606f57379a68f2",
+      "categories": [
+        {
+          "id": 13009,
+          "name": "Cocktail Bar",
+          "short_name": "Cocktail",
+          "plural_name": "Cocktail Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13031,
+          "name": "Burger Joint",
+          "short_name": "Burgers",
+          "plural_name": "Burger Joints",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/burger_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Open Daily 12:00 AM-2:00 AM",
+        "is_local_holiday": false,
+        "open_now": true,
+        "regular": [
+          {
+            "close": "0200",
+            "day": 1,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 1,
+            "open": "1200"
+          },
+          {
+            "close": "0200",
+            "day": 2,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 2,
+            "open": "1200"
+          },
+          {
+            "close": "0200",
+            "day": 3,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 3,
+            "open": "1200"
+          },
+          {
+            "close": "0200",
+            "day": 4,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 4,
+            "open": "1200"
+          },
+          {
+            "close": "0200",
+            "day": 5,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
+            "day": 5,
+            "open": "1200"
+          },
+          {
+            "close": "0200",
+            "day": 6,
+            "open": "0000"
           },
           {
             "close": "2359",
@@ -721,35 +1216,200 @@
             "open": "1100"
           },
           {
-            "close": "2200",
+            "close": "0200",
+            "day": 7,
+            "open": "0000"
+          },
+          {
+            "close": "2359",
             "day": 7,
             "open": "1100"
           }
         ]
       },
       "location": {
-        "address": "102 NW Boardman Ave",
-        "census_block": "410499701011038",
+        "address": "410 Boyd St",
+        "census_block": "060372062021011",
+        "country": "US",
+        "cross_street": "at San Pedro St",
+        "dma": "Los Angeles",
+        "formatted_address": "410 Boyd St (at San Pedro St), Los Angeles, CA 90013",
+        "locality": "Los Angeles",
+        "postcode": "90013",
+        "region": "CA"
+      },
+      "name": "The Escondite",
+      "photos": [
+        {
+          "id": "558dc72f498ea732ec6ddd9e",
+          "created_at": "2015-06-26T21:42:07.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/45703034_czCJjKrjEhSRsE1A7fytk-H628SdkPUk8KhsfSh8UoM.jpg",
+          "width": 1440,
+          "height": 1440,
+          "classifications": ["food"]
+        },
+        {
+          "id": "67a969fee66953503ba0553e",
+          "created_at": "2025-02-10T02:52:46.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/1954848_piBRSxzJUaPFZTBcYS5DbDuvKRSr_ayMK3tqPsfQT-Q.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "675bba12a4d0d6760599a163",
+          "created_at": "2024-12-13T04:37:38.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/12762_vEA9IP2sMGeKLa49jseAxydXxW1OW0x01CU9N1VZZIc.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "66ecfbd3895d9d48bf386aef",
+          "created_at": "2024-09-20T04:36:35.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/15797758_BXTJO2i7bYxGkwUkLquV1eqLMgGhA_57TcgdlLdADtE.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "66ecfbcde09f7923de194515",
+          "created_at": "2024-09-20T04:36:29.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/15797758_r8_xSWlBYURSL_x6TYH7LfLtgPUUkNNCnJNJ2Z8dtpU.jpg",
+          "width": 1440,
+          "height": 1920
+        }
+      ],
+      "price": 2,
+      "rating": 8.4,
+      "website": "http://theescondite.com"
+    },
+    {
+      "fsq_id": "61f483047b68f726a87d78e3",
+      "categories": [
+        {
+          "id": 13263,
+          "name": "Japanese Restaurant",
+          "short_name": "Japanese",
+          "plural_name": "Japanese Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/japanese_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "hours": {
+        "display": "Mon-Thu 11:30 AM-11:00 PM; Fri 11:30 AM-12:00 AM; Sat-Sun 12:00 AM-2:00 AM",
+        "is_local_holiday": false,
+        "open_now": true,
+        "regular": [
+          {
+            "close": "2300",
+            "day": 1,
+            "open": "1130"
+          },
+          {
+            "close": "2300",
+            "day": 2,
+            "open": "1130"
+          },
+          {
+            "close": "2300",
+            "day": 3,
+            "open": "1130"
+          },
+          {
+            "close": "2300",
+            "day": 4,
+            "open": "1130"
+          },
+          {
+            "close": "+0000",
+            "day": 5,
+            "open": "1130"
+          },
+          {
+            "close": "0200",
+            "day": 6,
+            "open": "0000"
+          },
+          {
+            "close": "+0000",
+            "day": 6,
+            "open": "1130"
+          },
+          {
+            "close": "0200",
+            "day": 7,
+            "open": "0000"
+          },
+          {
+            "close": "2300",
+            "day": 7,
+            "open": "1130"
+          }
+        ]
+      },
+      "location": {
+        "address": "514 W 7th St",
+        "census_block": "060372077121003",
         "country": "US",
         "cross_street": "",
-        "dma": "Portland, Or",
-        "formatted_address": "102 NW Boardman Ave, Boardman, OR 97818",
-        "locality": "Boardman",
-        "postcode": "97818",
-        "region": "OR"
+        "dma": "Los Angeles",
+        "formatted_address": "514 W 7th St, Los Angeles, CA 90014",
+        "locality": "Los Angeles",
+        "postcode": "90014",
+        "region": "CA"
       },
-      "name": "Smiley's Happy Place",
-      "price": 2
+      "name": "Gyu-kaku Japanese BBQ",
+      "photos": [
+        {
+          "id": "678ec2442eb80c14ba697846",
+          "created_at": "2025-01-20T21:38:12.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/64677210_qx3dOceTC0ORNOXXiN232DOQrNR1T1TW7m0sKi4WAY0.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "666ccbe81ac3103508fd0eb4",
+          "created_at": "2024-06-14T23:02:00.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/1380026727_q3jtBwnkM2H3IOhuwBq4lnZYYf4mimiJ398jjA_757s.jpg",
+          "width": 1440,
+          "height": 1920
+        },
+        {
+          "id": "64a4a4ab8be95f059ae66081",
+          "created_at": "2023-07-04T23:00:59.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/583557325_Nv0nMnMNJq326WJi-GYlfXHZtd_FyuWArEXI8uhDHiU.jpg",
+          "width": 1920,
+          "height": 1440
+        },
+        {
+          "id": "64a49b212618a44376764898",
+          "created_at": "2023-07-04T22:20:17.000Z",
+          "prefix": "https://fastly.4sqi.net/img/general/",
+          "suffix": "/573941829_mOkF9e0UNap-rWLOXSLxT1RxckwPW5JXxfu-PshGulo.jpg",
+          "width": 1440,
+          "height": 1920
+        }
+      ],
+      "price": 2,
+      "website": "http://www.gyu-kaku.com"
     }
   ],
   "context": {
     "geo_bounds": {
       "circle": {
         "center": {
-          "latitude": 45.8234,
-          "longitude": -119.7257
+          "latitude": 34.03734,
+          "longitude": -118.249176
         },
-        "radius": 10000
+        "radius": 2383
       }
     }
   }

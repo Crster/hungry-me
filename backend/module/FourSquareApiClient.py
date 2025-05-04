@@ -2,6 +2,7 @@ import requests
 import urllib.parse
 import os
 import json
+import time
 
 class FourSquareApiClientError(Exception):
     """Custom exception for FourSquareApiClient."""
@@ -26,7 +27,7 @@ class FourSquareApiClient:
                 "min_price": price,
                 "open_now": open_now,
                 "categories": "4d4b7105d754a06374d81259",  # FourSquare category ID for restaurants
-                "fields": "name,location,hours,rating,price,categories",
+                "fields": "fsq_id,name,location,hours,rating,price,categories,photos,website,description",
             }
             
             url = f"{self.base_url}{endpoint}?{urllib.parse.urlencode(query_params)}"
@@ -42,6 +43,7 @@ class FourSquareApiClient:
         
     def search_restaurants_test(self, query, near, price, open_now):
         sample_dir = os.path.dirname(__file__)
+        time.sleep(3)
 
         with open(os.path.join(sample_dir, "..", "sample", "place-search.result.json"), "r") as file:
             data = json.load(file)
