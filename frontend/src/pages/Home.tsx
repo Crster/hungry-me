@@ -1,5 +1,5 @@
 import serverImg from "../assets/server.png";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { restApi } from "../modules/restapi";
 import { Restaurant } from "../models/restaurant";
@@ -7,22 +7,14 @@ import { SearchBar } from "../components/SearchBar";
 import { useSearchHistory } from "../hooks/useSearchHistory";
 import { SearchHistory } from "../components/SearchHistory";
 import { SearchResult } from "../components/SearchResult";
-import { useLocation } from "react-router";
 
 export default function HomePage() {
-  const location = useLocation();
   const searchHistory = useSearchHistory();
   const [isSearching, setIsSearching] = useState(false);
   const [searchResults, setSearchResults] = useState<
     Restaurant[] | undefined
   >();
   const isLoaded = useMemo(() => !!searchResults, [searchResults]);
-
-  useEffect(() => {
-    if (location.state?.restaurants) {
-      setSearchResults(location.state.restaurants);
-    }
-  }, [location.state]);
 
   const handleSearch = async (message: string) => {
     try {
@@ -47,7 +39,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="flex flex-col items-center px-5 py-10 gap-5">
+    <div className={twMerge("flex flex-col items-center px-5 py-10 gap-5 md:w-[40rem] md:mx-auto", isLoaded && "md:w-full")}>
       <div className={twMerge(isLoaded && "animate-swing-out-top-bck")}>
         <img src={serverImg} width={250} height={250} alt="Server" />
         <h1 className="text-3xl text-center pacifico-regular">
