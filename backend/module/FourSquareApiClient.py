@@ -2,11 +2,13 @@ import requests
 import urllib.parse
 import os
 import json
-import time
+
 
 class FourSquareApiClientError(Exception):
     """Custom exception for FourSquareApiClient."""
+
     pass
+
 
 class FourSquareApiClient:
     def __init__(self):
@@ -22,29 +24,36 @@ class FourSquareApiClient:
             endpoint = "/places/search"
 
             query_params = {
-                "query": query,
-                "near": near,
-                "min_price": price,
-                "open_now": open_now,
                 "categories": "4d4b7105d754a06374d81259",  # FourSquare category ID for restaurants
                 "fields": "fsq_id,name,location,hours,rating,price,categories,photos,website,description",
             }
-            
-            url = f"{self.base_url}{endpoint}?{urllib.parse.urlencode(query_params)}"
-            response = self.session.get(url, headers=self.headers)
 
-            if (not response.ok):
-                raise FourSquareApiClientError(f"({response.reason}) Failed to fetch restaurants.")
+            # Prevent empty query parameters from being sent
+            if query:
+                query_params["query"] = query
+            else:
+                raise FourSquareApiClientError("Query parameter cannot be empty.")
             
-            return response.json()
+            if near:
+                query_params["near"] = near
+            if price:
+                query_params["price"] = price
+            if open_now:
+                query_params["open_now"] = open_now
+
+            url = f"{self.base_url}{endpoint}?{urllib.parse.urlencode(query_params)}"
+
+            if os.environ.get("DEMO_MODE") == "true":
+                sample_dir = os.path.join(os.path.dirname(__file__), "..", "sample", "place-search.result.json")
+                with open(sample_dir, "r") as file:
+                    return json.load(file)
+                
+            else:
+                response = self.session.get(url, headers=self.headers)
+                if not response.ok:
+                    raise FourSquareApiClientError(f"({response.reason}) Failed to fetch restaurants.")
+
+                return response.json()
         except Exception as e:
             print("FourSquareApiClientError:", e)
             raise FourSquareApiClientError("Critical error occurred.")
-        
-    def search_restaurants_test(self, query, near, price, open_now):
-        sample_dir = os.path.dirname(__file__)
-        time.sleep(3)
-
-        with open(os.path.join(sample_dir, "..", "sample", "place-search.result.json"), "r") as file:
-            data = json.load(file)
-        return data

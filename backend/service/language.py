@@ -35,8 +35,11 @@ async def ask_llm(message: str) -> str:
                 """
 
     try:
+        print("LLM Prompt: ", message)
+
         response = completion(
             model=environ.get("LLM_MODEL"),
+            api_base=environ.get("LLM_API_BASE"),
             messages=[
                 {
                     "role": "system",
@@ -50,35 +53,38 @@ async def ask_llm(message: str) -> str:
         )
 
         return response["choices"][0]["message"]["content"]
-    except APIError:
-        raise LanguageServiceError("LLM service is not available.")
+    except APIError as e:
+        print("LanguageServiceError:", e)
+        if environ.get("DEMO_MODE") == "true":
+            return """
+            ```json
+            {
+                "action": "restaurant_search",
+                "parameters": {
+                    "query": "sushi",
+                    "near": "New York",
+                    "price": 2,
+                    "open_now": true
+                }
+            }
+            ```
+            """
+        else:
+            raise LanguageServiceError("LLM service is not available.")
     except KeyError:
         raise LanguageServiceError("Invalid response format from LLM.")
 
 
 async def message_to_command(message: str) -> SearchCommand:
     try:
-        # response = await ask_llm(message)
-        response = """
-        ```json
-        {
-            "action": "restaurant_search",
-            "parameters": {
-                "query": "sushi",
-                "near": "New York",
-                "price": 2,
-                "open_now": true
-            }
-        }
-        ```
-        """
+        response = await ask_llm(message)
 
         content = json_pattern.search(response)
         json_content = json.loads(content.group(1))
 
         if "action" not in json_content or "parameters" not in json_content:
             raise ServiceError("Missing action or parameters in JSON content.")
-        
+
         action = SearchAction.UNKNOWN
         if json_content.get("action") == "restaurant_search":
             action = SearchAction.RESTAURANT_SEARCH

@@ -6,7 +6,9 @@ client = FourSquareApiClient()
 
 async def find(filter: SearchParameter) -> list[SearchResult]:
     try:
-        responses = client.search_restaurants_test(
+        print("FourSqaure Filter:", vars(filter))
+
+        responses = client.search_restaurants(
             query=filter.query,
             near=filter.near,
             price=filter.price,
