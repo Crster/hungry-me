@@ -18,6 +18,11 @@ export default function HomePage() {
 
   const handleSearch = async (message: string) => {
     try {
+      if (isSearching) {
+        console.warn("Search already in progress. Please wait.");
+        return;
+      }
+
       setIsSearching(true);
       const response = await restApi
         .post<Restaurant[]>("api/execute", {
@@ -57,6 +62,7 @@ export default function HomePage() {
         <SearchHistory
           className={twMerge("mt-10", isLoaded && "hidden")}
           searchHistory={searchHistory}
+          searching={isSearching}
           onSearch={handleSearch}
         />
       </div>

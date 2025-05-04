@@ -24,9 +24,10 @@ export const SearchBar: React.FC<SearchBarProps> = ({
       />
       <button
         className={twMerge(
-          "bg-red-800 text-white p-2 rounded-full hover:bg-red-600 transition duration-200",
+          "bg-red-800 text-white p-2 rounded-full hover:bg-red-600 transition duration-200 disabled:cursor-not-allowed",
           searching && "scale-125"
         )}
+        disabled={searching}
         onClick={() => onSearch(message)}
       >
         <Search
