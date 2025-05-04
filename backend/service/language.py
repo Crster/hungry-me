@@ -36,6 +36,8 @@ async def ask_llm(message: str) -> str:
 
     try:
         print("LLM Prompt: ", message)
+        if len(message) == 0:
+            raise LanguageServiceError("Message cannot be empty.")
 
         response = completion(
             model=environ.get("LLM_MODEL"),
