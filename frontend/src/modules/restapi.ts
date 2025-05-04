@@ -5,5 +5,5 @@ export const restApi = ky.create({
   headers: {
     "Content-Type": "application/json",
   },
-  timeout: 1000 * 20, // 20 seconds
+  timeout: 1000 * 40, // 40 seconds
 });

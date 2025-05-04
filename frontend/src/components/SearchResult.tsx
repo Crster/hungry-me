@@ -1,6 +1,6 @@
 import { CircleDollarSign, Heart, MapPinned } from "lucide-react";
 import { Restaurant } from "../models/restaurant";
-import { stringyfyPriceLevel } from "../modules/price-level";
+import { colorfyPriceLevel, stringyfyPriceLevel } from "../modules/price-level";
 import { twMerge } from "tailwind-merge";
 import { useNavigate } from "react-router";
 
@@ -27,7 +27,9 @@ export const SearchResult: React.FC<SearchResultProps> = ({
           <div
             key={restaurant.id}
             className="flex flex-col gap-2 p-4 rounded-2xl shadow-md bg-white w-full lg:w-[40rem] min-h-[15rem] justify-between"
-            onClick={() => navigate("/restaurant", { state: { restaurant, restaurants } })}
+            onClick={() =>
+              navigate("/restaurant", { state: { restaurant, restaurants } })
+            }
           >
             <div className="relative flex gap-5">
               <img
@@ -51,7 +53,7 @@ export const SearchResult: React.FC<SearchResultProps> = ({
                 </span>
               </div>
 
-              <div className="absolute right-10 mt-5 flex items-center justify-center gap-2 text-red-700">
+              <div className="absolute right-5 mt-3 flex items-center justify-center gap-2 text-red-700">
                 <Heart size={40} strokeWidth={1} className="absolute" />
                 <span className="text-xs font-bold">
                   {restaurant.rating ?? "?"}
@@ -60,8 +62,8 @@ export const SearchResult: React.FC<SearchResultProps> = ({
             </div>
 
             <div className="flex flex-col gap-2">
-              <span className="text-sm">
-                <CircleDollarSign size={16} className="inline mr-1" />
+              <span className={twMerge("text-sm flex items-center", colorfyPriceLevel(restaurant.price_level))}>
+                <CircleDollarSign size={16} className="mr-1" />
                 {stringyfyPriceLevel(restaurant.price_level)}
               </span>
 
