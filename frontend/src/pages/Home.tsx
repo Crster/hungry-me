@@ -23,6 +23,11 @@ export default function HomePage() {
         return;
       }
 
+      if (message.trim() === "") {
+        alert("Please enter something.");
+        return;
+      }
+
       setIsSearching(true);
       const response = await restApi
         .post<Restaurant[]>("api/execute", {
