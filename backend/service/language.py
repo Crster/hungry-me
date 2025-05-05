@@ -1,6 +1,6 @@
 from os import environ
 from datetime import datetime
-from litellm import completion, APIError
+from litellm import completion, APIError, APIConnectionError
 from model import SearchCommand, SearchAction, SearchParameter
 from .error import LanguageServiceError, ServiceError
 import json
@@ -57,6 +57,8 @@ async def ask_llm(message: str) -> str:
         return response["choices"][0]["message"]["content"]
     except APIError as e:
         print("LanguageServiceError:", e)
+        raise LanguageServiceError("LLM service is not available.")
+    except APIConnectionError:
         if environ.get("DEMO_MODE") == "true":
             return """
             ```json
@@ -72,7 +74,7 @@ async def ask_llm(message: str) -> str:
             ```
             """
         else:
-            raise LanguageServiceError("LLM service is not available.")
+            raise LanguageServiceError("LLM server is unreachable.")
     except KeyError:
         raise LanguageServiceError("Invalid response format from LLM.")
 
