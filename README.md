@@ -1,10 +1,10 @@
-# ?? Restaurant Finder
+# 🍴 Restaurant Finder
 
 Restaurant Finder is a modern web application designed to help users discover restaurants effortlessly. This guide provides step-by-step instructions for setting up, running, and deploying the application in development or production environments.
 
 ---
 
-## ?? Frontend
+## 🎨 Frontend
 
 ### Tech Stack
 - **Framework**: Vite + React (TypeScript template for scaffolding)
@@ -12,7 +12,7 @@ Restaurant Finder is a modern web application designed to help users discover re
 - **Routing**: React Router
 - **Icons**: Lucide React
 
-### ?? Setup and Run
+### 🚀 Setup and Run
 1. Navigate to the `frontend` directory:
    ```bash
    cd frontend
@@ -36,7 +36,7 @@ Restaurant Finder is a modern web application designed to help users discover re
 
 ---
 
-## ?? Backend
+## 🛠 Backend
 
 ### Tech Stack
 - **Framework**: FastAPI (for REST API development)
@@ -44,7 +44,7 @@ Restaurant Finder is a modern web application designed to help users discover re
 - **LLM Providers**: Tested with Hugging Face and Ollama Local; may work with any litellm-supported LLMs.
 - **Restaurant Data**: Foursquare API
 
-### ?? Setup and Run
+### 🚀 Setup and Run
 1. Navigate to the `backend` directory:
    ```bash
    cd backend
@@ -87,7 +87,7 @@ Restaurant Finder is a modern web application designed to help users discover re
 
 ---
 
-## ?? Demo: LLM Mode
+## 🤖 Demo: LLM Mode
 
 To enable and test the LLM (Large Language Model) integration, follow these steps:
 
@@ -110,7 +110,7 @@ To enable and test the LLM (Large Language Model) integration, follow these step
 
 ---
 
-## ?? Docker Deployment
+## 🐳 Docker Deployment
 
 You can deploy the application using Docker for a production environment.
 
@@ -128,7 +128,7 @@ You can deploy the application using Docker for a production environment.
 
 ---
 
-## ?? Notes
+## 📄 Notes
 - Ensure all prerequisites (e.g., Node.js, Python, API keys) are set up before running the application.
 - Replace placeholders (e.g., `##########`) in the `.env` files with actual values.
 - This project has been tested with Hugging Face models and Ollama Local. Compatibility with other LLM providers may vary.
@@ -136,4 +136,4 @@ You can deploy the application using Docker for a production environment.
 - On windows machine use http://host.docker.internal:11434 when using docker to connect to local Ollama instance.
 ---
 
-Thank you for using Restaurant Finder! ???
+Thank you for using Restaurant Finder! 🍽️
